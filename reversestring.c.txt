@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+   char ch[]="samaksh";
+   int j,k,l;
+   j=strlen(ch);
+   for(k=j-1;k>=0;k--){
+       
+       printf("%c",ch[k]);
+   } printf("%s",ch);
+}
